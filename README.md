@@ -8,7 +8,7 @@ Resource   | Minimal home PC     | Optimal home PC     | Minimal server  | Recom
 | CPU      | 1 Core ARMv7        | 4 Core ARMv8        | 1+ Core X86     | 1+ Core X86        |
 | Disk     | 350 GB HDD          | 500 GB SSD          | 350 GB HDD      | 500 GB SDD         |
 | Disk port| USB 2.0 _*_         | USB 3.0             | SATA 100 Mbps   | SATA/NVME          |
-| Network  | 10 Mbps Up/Down     | 50/10 Mbps Up/Down  | 10 Mbps Up/Down | 100 Mbps Up/Down   |
+| Network  | 5/1 Mbps Up/Down    | 20/5 Mbps Up/Down   | 10 Mbps Up/Down | 100 Mbps Up/Down   |
 
 _*_ It requires blockchain synchronization performs on an external machine
 
