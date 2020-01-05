@@ -6,11 +6,15 @@ Resource   | Minimal home PC     | Optimal home PC     | Minimal server  | Recom
 |----------|---------------------|---------------------|-----------------|--------------------|
 | Memory   | 512 Mb              | 2 GB                | 1 GB            | 2 GB               | 
 | CPU      | 1 Core ARMv7        | 4 Core ARMv8        | 1+ Core X86     | 1+ Core X86        |
-| Disk     | 350 GB HDD          | 500 GB SSD          | 350 GB HDD      | 500 GB SDD         |
-| Disk port| USB 2.0 _*_         | USB 3.0             | SATA 100 Mbps   | SATA/NVME          |
+| Disk \*  | 350 GB HDD          | 500 GB SSD          | 350 GB HDD      | 500 GB SDD         |
+| Disk port| USB 2.0 \*\*        | USB 3.0             | SATA 100 Mbps   | SATA/NVME          |
 | Network  | 5/1 Mbps Up/Down    | 20/5 Mbps Up/Down   | 10 Mbps Up/Down | 100 Mbps Up/Down   |
 
-_*_ It requires blockchain synchronization performs on an external machine
+\* The minimal disk size includes Bitcoin Core blockchain plus transaction index database which is needed for second layer protocols like Lightning and Neutrino.
+It is around 300 GBytes for the 1 January 2020.  
+
+\*\* It requires blockchain synchronization performs on an external machine
+
 
 ### Ready to use hardware solutions
 - [Casa Node](https://keys.casa/lightning-bitcoin-node/) - The World famous solution
